@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional utility for balancing text, useful in modern headers */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
